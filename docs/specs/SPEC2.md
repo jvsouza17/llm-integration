@@ -221,6 +221,7 @@ idle → submitting → waiting → success
                          └→ error
 ```
 
+<<<<<<< HEAD
 ### Estado `idle`
 
 - campo habilitado;
@@ -247,6 +248,8 @@ idle → submitting → waiting → success
 - ação de retry disponível;
 - controles habilitados.
 
+=======
+>>>>>>> afcccf7810420cd899bfdfadd70b49edfd4816bc
 ## 5. Alterações técnicas esperadas
 
 ### Backend
