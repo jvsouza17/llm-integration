@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat com Base de Conhecimento</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Chat com Base de Conhecimento</h1>
+
+      <section class="panel">
+        <h2>Upload</h2>
+        <input id="fileInput" type="file" accept=".txt,.md,.pdf" />
+        <button id="uploadBtn">Enviar documento</button>
+        <div id="uploadStatus" class="status"></div>
+      </section>
+
+      <section class="panel">
+        <h2>Documentos indexados</h2>
+        <ul id="documentsList"></ul>
+      </section>
+
+      <section class="panel chat-panel">
+          <div class="chat-heading">
+            <h2>Conversa</h2>
+            <span id="modelStatus" class="model-status">Modelo configurado: carregando...</span>
+          </div>
+        <div id="chatMessages" class="chat-messages"></div>
+        <form id="chatForm">
+            <input id="questionInput" type="text" autocomplete="off" placeholder="Faça uma pergunta sobre os documentos..." />
+            <button id="submitQuestionBtn" type="submit">Perguntar</button>
+        </form>
+      </section>
+    </div>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
