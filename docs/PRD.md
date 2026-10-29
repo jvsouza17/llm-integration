@@ -45,8 +45,4 @@ João, desenvolvedor/consultor com atuação em marketing imobiliário, para uso
 - Depende de free tier de API externa (Gemini): possível limite de uso a monitorar.
 
 ## 9. Relação com a spec técnica
-<<<<<<< HEAD
 Este PRD define o *porquê* e o *o quê* do produto. A implementação técnica (stack, arquitetura, endpoints, decisão Gemini vs Groq) está detalhada em `spec-chat-rag.md`, que traduz estes requisitos em instruções de construção para o agente de código.
-=======
-Este PRD define o *porquê* e o *o quê* do produto. A implementação técnica (stack, arquitetura, endpoints, decisão Gemini vs Groq) está detalhada em `spec-chat-rag.md`, que traduz estes requisitos em instruções de construção para o agente de código.
->>>>>>> afcccf7810420cd899bfdfadd70b49edfd4816bc
